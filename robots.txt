@@ -1,0 +1,4 @@
+User-Agent:*
+Allow: /
+
+Sitemap: https://lookscent.netlify.app/sitemap.xml
