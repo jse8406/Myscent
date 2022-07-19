@@ -4,9 +4,6 @@ body {
     box-sizing: border-box;
     color: #35465d;
   }
-input:checked + label  body {
-  background-color: #c5e2f5;
-}
   .file-upload {
       padding: 15% 3%;
       margin: 0 auto;
@@ -471,5 +468,5 @@ input:checked + label  body {
     top: 13px;
     width: 12px;
     left: 0px;
-    transform: rotate(180deg);
+    transform: rotate(134deg);
   }
