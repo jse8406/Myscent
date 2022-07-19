@@ -8,7 +8,7 @@ input:checked + label  body {
   background-color: #c5e2f5;
 }
   .file-upload {
-      padding: 15% 3% 5%;
+      padding: 15% 3% 15% 0%;
       margin: 0 auto;
       border-radius: 10px;
       border: solid 1.5px #f6f7fa;
