@@ -471,5 +471,5 @@ input:checked + label  body {
     top: 13px;
     width: 12px;
     left: 0px;
-    transform: rotate(134deg);
+    transform: rotate(180deg);
   }
