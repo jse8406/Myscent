@@ -116,6 +116,14 @@
         </div>
     </footer>
     <script>
+        function chageBackground(){
+            if (document.getElementById("gender").checked) {
+                document.body.style.backgroundColor = '#c5e2f5';
+            } else {
+                document.body.style.backgroundColor = '#f89ac1';
+            }
+        }
+        chageBackground();
         function readURL(input) {
             if (input.files && input.files[0]) {
                 var reader = new FileReader();

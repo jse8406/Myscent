@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     color: #35465d;
   }
-input:checked + label > body {
+input:checked + label  body {
   background-color: #c5e2f5;
 }
   .file-upload {
