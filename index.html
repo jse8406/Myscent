@@ -60,7 +60,7 @@
     <section class="d-flex justify-content-center">
         <p class="d-flex align-items-center pr-3">여자</p>
         <div>
-            <input type="checkbox" id="gender" value = "woman" onclick="ChangeBackgroundColor(this)"> <!-- 버튼 -->
+            <input type="checkbox" id="gender" value = 'woman' onclick="ChangeBackgroundColor(this)"> <!-- 버튼 -->
             <label for="gender">
                 <span class="knob">
                     <i></i>
@@ -120,11 +120,12 @@
             var target = document.querySelector('body');
             if (self.value == 'woman') {
                 document.querySelector('body').style.backgroundColor = 'f89ac1'
-                console.log("woman")
+                this.value = 'man'
+                console.log('man')
             }
             else {
                 document.querySelector('body').style.backgroundColor = 'c5e2f5'
-                console.log("man")
+                console.log('man')
             }
         }
 
