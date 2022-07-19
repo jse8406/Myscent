@@ -472,8 +472,3 @@ input:checked + label  body {
     left: 0px;
     transform: rotate(134deg);
   }
-  
-  .ad-banner {
-      width: 1140px;
-      margin: 0 auto;
-  }
