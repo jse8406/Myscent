@@ -119,12 +119,12 @@
         function ChangeBackgroundColor(self) {
             var target = document.querySelector('body');
             if (self.value == 'woman') {
-                document.querySelector('body').style.backgroundColor = 'f89ac1'
+                target.style.backgroundColor = 'f89ac1'
                 self.value = 'man'
-                console.log('man')
+                console.log('woman')
             }
             else {
-                document.querySelector('body').style.backgroundColor = 'c5e2f5'
+                target.style.backgroundColor = 'c5e2f5'
                 console.log('man')
                 self.value = 'woman'
 
