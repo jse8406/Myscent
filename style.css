@@ -3,6 +3,7 @@ body {
     background-color: #f89ac1;
     box-sizing: border-box;
     color: #35465d;
+    transition: all 1s;
   }
   .file-upload {
       padding: 15% 3%;
