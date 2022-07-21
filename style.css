@@ -6,7 +6,9 @@ body {
     transition: all 1s;
   }
   .coupang{
-    display: flex;
+    margin-top: 3%;
+    text-align: center;
+    justify-content: space-around;
   }
   .file-upload {
       padding: 15% 3%;
