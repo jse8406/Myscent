@@ -270,7 +270,7 @@
                 }
             }
             var title = "<div class='" + prediction[0].className + "-animal-title'>" + resultTitle + "</div>"
-            var image = "<img scr=" + '"' + resultimage + '"' + "width=488 height=536 alt = 'No image' >"
+            var image = '<img src=' + resultimage + 'width=150 height=150 alt="no image">'
             var explain = "<div class='animal-explain pt-2'>" + resultExplain + "</div>"
             var celeb = "<div class='" + prediction[0].className + "-animal-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
             $('.result-message').html(title + image + explain + celeb);
