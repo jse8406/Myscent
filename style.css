@@ -6,7 +6,8 @@ body {
     transition: all 1s;
   }
   .coupang{
-    width: 60%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 1%;
     text-align: center;
     display: flex;
