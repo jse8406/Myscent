@@ -478,3 +478,6 @@ body {
     left: 0px;
     transform: rotate(134deg);
   }
+  .state {
+    font-size: small;
+  }
